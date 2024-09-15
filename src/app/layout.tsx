@@ -31,62 +31,56 @@ export default function RootLayout({
         <header className="flex justify-center p-4 bg-gray-800 flex-none">
           <nav className="flex justify-between w-full max-w-md">
             {/* Home Icon Area */}
-            <div className="flex-1 flex justify-center hover:bg-gray-700 rounded-lg p-2">
-              <a href="/" className="text-white">
-                <svg
-                  className="h-6 w-6"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"
-                  />
-                </svg>
-              </a>
-            </div>
+            <a href="/" className="text-white flex-1 flex justify-center hover:bg-gray-700 rounded-lg p-2">
+              <svg
+                className="h-6 w-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"
+                />
+              </svg>
+            </a>
             {/* User Icon Area */}
-            <div className="flex-1 flex justify-center hover:bg-gray-700 rounded-lg p-2">
-              <a href="#" className="text-white">
-                <svg
-                  className="h-6 w-6"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M5.121 17.804A7.966 7.966 0 0112 15c2.042 0 3.899.76 5.121 2.004M12 12a4 4 0 100-8 4 4 0 000 8zm0 0c4.418 0 8 3.582 8 8a1 1 0 11-2 0c0-3.314-2.686-6-6-6s-6 2.686-6 6a1 1 0 11-2 0c0-4.418 3.582-8 8-8z"
-                  />
-                </svg>
-              </a>
-            </div>
+            <a href="/experience" className="text-white flex-1 flex justify-center hover:bg-gray-700 rounded-lg p-2">
+              <svg
+                className="h-6 w-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M5.121 17.804A7.966 7.966 0 0112 15c2.042 0 3.899.76 5.121 2.004M12 12a4 4 0 100-8 4 4 0 000 8zm0 0c4.418 0 8 3.582 8 8a1 1 0 11-2 0c0-3.314-2.686-6-6-6s-6 2.686-6 6a1 1 0 11-2 0c0-4.418 3.582-8 8-8z"
+                />
+              </svg>
+            </a>
             {/* Settings Icon Area */}
-            <div className="flex-1 flex justify-center hover:bg-gray-700 rounded-lg p-2">
-              <a href="#" className="text-white">
-                <svg
-                  className="h-6 w-6"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M12 8c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm4-2a4 4 0 011.157 2.268l1.837.409a2 2 0 010 1.646l-1.837.409a4 4 0 01-1.157 2.268l1.316 1.316a2 2 0 01-1.415 3.415l-1.316-1.316a4 4 0 01-2.268 1.157l-.409 1.837a2 2 0 01-1.646 0l-.409-1.837a4 4 0 01-2.268-1.157L7.536 16.95a2 2 0 01-3.415-1.415l1.316-1.316a4 4 0 01-1.157-2.268L3.495 12a2 2 0 010-1.646l1.837-.409a4 4 0 011.157-2.268L5.495 6.95a2 2 0 011.415-3.415l1.316 1.316A4 4 0 0110.5 4.05l.409-1.837a2 2 0 011.646 0l.409 1.837a4 4 0 012.268 1.157l1.316-1.316A2 2 0 0116.95 5.95l-1.316 1.316A4 4 0 0118.25 9h1.837a2 2 0 010 1.646h-1.837a4 4 0 01-1.157 2.268l1.316 1.316a2 2 0 01-3.415 1.415l-1.316-1.316a4 4 0 01-2.268 1.157l-.409 1.837a2 2 0 01-1.646 0l-.409-1.837a4 4 0 01-2.268-1.157L7.536 16.95a2 2 0 01-3.415-1.415l1.316-1.316A4 4 0 015.05 12z"
-                  />
-                </svg>
-              </a>
-            </div>
+            <a href="#" className="text-white flex-1 flex justify-center hover:bg-gray-700 rounded-lg p-2">
+              <svg
+                className="h-6 w-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M12 8c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm4-2a4 4 0 011.157 2.268l1.837.409a2 2 0 010 1.646l-1.837.409a4 4 0 01-1.157 2.268l1.316 1.316a2 2 0 01-1.415 3.415l-1.316-1.316a4 4 0 01-2.268 1.157l-.409 1.837a2 2 0 01-1.646 0l-.409-1.837a4 4 0 01-2.268-1.157L7.536 16.95a2 2 0 01-3.415-1.415l1.316-1.316a4 4 0 01-1.157-2.268L3.495 12a2 2 0 010-1.646l1.837-.409a4 4 0 011.157-2.268L5.495 6.95a2 2 0 011.415-3.415l1.316 1.316A4 4 0 0110.5 4.05l.409-1.837a2 2 0 011.646 0l.409 1.837a4 4 0 012.268 1.157l1.316-1.316A2 2 0 0116.95 5.95l-1.316 1.316A4 4 0 0118.25 9h1.837a2 2 0 010 1.646h-1.837a4 4 0 01-1.157 2.268l1.316 1.316a2 2 0 01-3.415 1.415l-1.316-1.316a4 4 0 01-2.268 1.157l-.409 1.837a2 2 0 01-1.646 0l-.409-1.837a4 4 0 01-2.268-1.157L7.536 16.95a2 2 0 01-3.415-1.415l1.316-1.316A4 4 0 015.05 12z"
+                />
+              </svg>
+            </a>
           </nav>
         </header>
         <main className="flex-grow flex items-center justify-center p-4 overflow-hidden">

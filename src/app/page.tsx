@@ -13,14 +13,12 @@ const Home = () => {
         />
         <div className="text-left">
           <h1 className="text-4xl mb-4">Jay Xu</h1>
-          <h2 className="text-lg mb-2">Software Engineer & Full Stack Developer</h2>
-          <p>Developing software to make life simple</p>
+          <h2 className="text-lg mb-2 text-gray-400">Software Engineer & Full Stack Developer</h2>
         </div>
       </div>
-      <p className="max-w-4xl mt-12">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-        Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s,
-        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      <p className="max-w-2xl mt-12 mb-2 text-gray-400">
+        Hello I am a new graduate who loves building software to make life more efficient, simple, and fun.
+        I aspire towards a career where I can develop products and work on projects that improves human lives.
       </p>
     </div>
   );
