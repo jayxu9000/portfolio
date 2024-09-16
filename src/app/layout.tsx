@@ -24,11 +24,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="h-full">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-900 text-white flex flex-col h-screen overflow-hidden`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-900 text-white flex flex-col h-full`}
       >
-        <header className="flex justify-center p-4 bg-gray-800 flex-none">
+        <header className="flex justify-center p-4 bg-gray-800 flex-none fixed w-full top-0 z-10">
           <nav className="flex justify-between w-full max-w-md">
             {/* Home Icon Area */}
             <a href="/" className="text-white flex-1 flex justify-center hover:bg-gray-700 rounded-lg p-2">
@@ -47,7 +47,7 @@ export default function RootLayout({
                 />
               </svg>
             </a>
-            {/* User Icon Area */}
+            {/* Experience Icon Area */}
             <a href="/experience" className="text-white flex-1 flex justify-center hover:bg-gray-700 rounded-lg p-2">
               <svg
                 className="h-6 w-6"
@@ -64,8 +64,25 @@ export default function RootLayout({
                 />
               </svg>
             </a>
-            {/* Settings Icon Area */}
-            <a href="#" className="text-white flex-1 flex justify-center hover:bg-gray-700 rounded-lg p-2">
+            {/* Resume Icon Area */}
+            <a href="/profexp" className="text-white flex-1 flex justify-center hover:bg-gray-700 rounded-lg p-2">
+              <svg
+                className="h-6 w-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M4 4h16v16H4V4zm4 4h8v2H8V8zm0 4h8v2H8v-2zm0 4h8v2H8v-2z"
+                />
+              </svg>
+            </a>
+            {/* Projects Icon Area */}
+            <a href="/projects" className="text-white flex-1 flex justify-center hover:bg-gray-700 rounded-lg p-2">
               <svg
                 className="h-6 w-6"
                 fill="none"
@@ -83,7 +100,7 @@ export default function RootLayout({
             </a>
           </nav>
         </header>
-        <main className="flex-grow flex items-center justify-center p-4 overflow-hidden">
+        <main className="flex-grow flex items-start justify-center p-4 pt-20 overflow-y-auto w-full">
           {children}
         </main>
       </body>
