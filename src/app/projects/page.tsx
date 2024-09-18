@@ -20,6 +20,14 @@ const projects = [
     link: "https://ot-website.onrender.com/" // Add your specific project link
   },
   {
+    title: "File Organizer",
+    image: "organizer_display.png",
+    startDate: "December 2023",
+    endDate: "January 2024",
+    languages: ["Python"],
+    link: "https://github.com/jayxu9000/File_Organizer?tab=readme-ov-file" // Add your specific project link
+  },
+  {
     title: "United States Breweries",
     image: "breweries_display.png",
     startDate: "September 2023",
@@ -32,7 +40,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className="flex flex-col items-center justify-center h-full text-center text-white px-4 py-6">
+    <div className="flex flex-col items-center justify-center less-than-500:h-auto less-than-500:pt-18 h-full text-center text-white px-4 py-6">
       <h2 className="text-2xl font-bold mb-8">My Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-6xl">
         {projects.map((project, index) => (

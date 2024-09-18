@@ -6,6 +6,7 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: 'class', // Enable class-based dark mode
   theme: {
     extend: {
       colors: {
@@ -14,6 +15,7 @@ const config: Config = {
       },
       screens: {
         'less-than-500': { 'max': '500px' }, // Custom breakpoint for screens less than 500px wide
+        'less-than-770': { 'max': '770px' }, // Custom breakpoint for screens less than 500px wide
       },
     },
   },
