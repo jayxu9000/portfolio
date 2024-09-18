@@ -20,6 +20,7 @@ const Experience = () => {
             <li>CSS</li>
             <li>JavaScript</li>
             <li>PHP</li>
+            <li>SQL</li>
             <li>Matlab</li>  
             {/* Add more languages as needed */}
           </ul>
