@@ -15,7 +15,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Jay Xu",
-  description: "Portfolio by Jay Xu",
+  description: "Jay Xu",
 };
 
 export default function RootLayout({
@@ -25,6 +25,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full">
+      <head>
+        <link rel="icon" href="/favicon.png" type="image/png" />
+        {/* You can also use a PNG file, for example: */}
+        {/* <link rel="icon" href="/favicon.png" type="image/png" /> */}
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-900 text-white flex flex-col h-full`}
       >
