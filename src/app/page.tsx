@@ -34,7 +34,7 @@ const Home = () => {
         <a href="https://github.com/jayxu9000" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white" aria-label="GitHub">
           <FaGithub size={24} />
         </a>
-        <a href="/Resume_JayXu.pdf" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white" aria-label="Resume">
+        <a href="/Resume_Jay_Xu.pdf" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white" aria-label="Resume">
           <HiDocumentText size={24} />
         </a>
       </div>
