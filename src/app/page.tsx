@@ -15,7 +15,7 @@ const Home = () => {
         />
         <div className="text-center md:text-left">
           <h1 className="text-4xl mb-4">Jay Xu</h1>
-          <h2 className="text-lg mb-2 text-gray-400">Software Engineer & Full Stack Developer</h2>
+          <h2 className="text-lg mb-2 text-gray-400">Software Engineer</h2>
         </div>
       </div>
       <p className="max-w-2xl mt-12 mb-2 text-gray-300">

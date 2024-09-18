@@ -15,7 +15,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Jay Xu",
-  description: "Jay Xu",
+  description: "Portfolio by Jay Xu",
 };
 
 export default function RootLayout({
@@ -65,7 +65,7 @@ export default function RootLayout({
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth={2}
-                  d="M4 4h16v16H4V4zm4 4h8v2H8V8zm0 4h8v2H8v-2zm0 4h8v2H8v-2z"
+                  d="M4 6h12M4 12h12M4 18h12M2 6h0.01M2 12h0.01M2 18h0.01"
                 />
               </svg>
             </a>
