@@ -1,6 +1,6 @@
 const Experience = () => {
   return (
-    <div className="flex flex-col items-center justify-center less-than-770:h-auto less-than-770:pt-18 h-full text-center text-white px-4 py-6">
+    <div className="flex flex-col items-center justify-center less-than-800:h-auto less-than-800:pt-24 h-full text-center text-white px-4 py-6">
       {/* Title Section */}
       <div className="text-left">
           <h2 className="text-2xl font-bold mb-10">Skills</h2>

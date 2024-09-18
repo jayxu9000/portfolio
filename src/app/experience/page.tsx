@@ -19,7 +19,7 @@ const ProfExp = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center justify-center less-than-500:justify-start less-than-500:h-auto less-than-500:pt-18 h-full text-center text-white px-4 py-6">
+    <div className="flex flex-col items-center justify-center less-than-500:justify-start less-than-500:h-auto less-than-500:pt-24 h-full text-center text-white px-4 py-6">
       <h2 className="text-2xl font-bold mb-8">Professional Experience</h2>
       <div className="relative flex flex-col items-start w-full max-w-4xl">
         {/* Vertical Line on the Left */}

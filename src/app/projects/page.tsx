@@ -40,7 +40,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className="flex flex-col items-center justify-center less-than-500:h-auto less-than-500:pt-18 h-full text-center text-white px-4 py-6">
+    <div className="flex flex-col items-center justify-center less-than-800:h-auto less-than-800:pt-24 h-full text-center text-white px-4 py-6">
       <h2 className="text-2xl font-bold mb-8">My Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-6xl">
         {projects.map((project, index) => (

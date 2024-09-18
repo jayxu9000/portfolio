@@ -105,7 +105,7 @@ export default function RootLayout({
             </a>
           </nav>
         </header>
-        <main className="flex-grow flex items-start justify-center p-4 pt-20 overflow-y-auto w-full">
+        <main className="flex-grow flex items-start justify-center p-4 overflow-y-auto w-full">
           {children}
         </main>
       </body>
